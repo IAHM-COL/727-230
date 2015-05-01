@@ -33,11 +33,11 @@ splash screen Tribute (IAHM-COL)
     <engine>JT8D-17R</engine>
 
     <startup>
-      <splash-texture>Aircraft/727-230/splash-tribute.png</splash-texture>
+      <splash-texture>splash-tribute.png</splash-texture>
     </startup>
 
     <sound>
-      <path>Aircraft/727-230/Sounds/Sounds.xml</path>
+      <path>Sounds/Sounds.xml</path>
       <switch type="bool">0</switch>
       <stall-horn type="bool">0</stall-horn>
     </sound>
@@ -80,12 +80,12 @@ splash screen Tribute (IAHM-COL)
     <!-- Systems in sim -->
     <systems>
       <autopilot>
-	<path>Aircraft/727-230/Systems/SYS8_0_autopilot.xml</path>
+	<path>Systems/SYS8_0_autopilot.xml</path>
       </autopilot>
     </systems>
 
     <model>
-      <path>Aircraft/727-230/Models/727-230.xml</path>
+      <path>Models/727-230.xml</path>
       <livery>
 	<name type="string">DLH - Lufthansa Airl.</name>
 	<texture>Liveries/727-230_Lufthansa.png</texture>
@@ -192,7 +192,7 @@ splash screen Tribute (IAHM-COL)
 
   <!-- IAHMCOL introduced new instrumentation file to install ADF, Clock, and DME. Old config was transferred there -->
   <instrumentation>
-    <path>Aircraft/727-230/Systems/727-230-instrumentation.xml</path>
+    <path>Systems/727-230-instrumentation.xml</path>
   </instrumentation>
 
   <controls>
@@ -318,22 +318,22 @@ splash screen Tribute (IAHM-COL)
   <!-- Nasal includes always last to make sure all properties for initialization are set -->
   <nasal>
     <ADF>
-      <file>Aircraft/727-230/Nasal/mk-rmi-adf-nav.nas</file>
+      <file>Nasal/mk-rmi-adf-nav.nas</file>
     </ADF>
     <DME>
-      <file>Aircraft/727-230/Nasal/mk-ki266.nas</file>
+      <file>Nasal/mk-ki266.nas</file>
       <script><![CDATA[
       ki266.new(0);
       ]]></script>
     </DME>
     <tyresmoke>
-      <file>Aircraft/727-230/Nasal/tyresmoke.nas</file>
+      <file>Nasal/tyresmoke.nas</file>
     </tyresmoke>
     <livery>
-      <file>Aircraft/727-230/Nasal/livery.nas</file>
+      <file>Nasal/livery.nas</file>
     </livery>
     <b727>
-      <file>Aircraft/727-230/Nasal/727.nas</file>
+      <file>Nasal/727.nas</file>
     </b727>	
   </nasal>
 

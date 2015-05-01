@@ -38,7 +38,7 @@
 
     <engine>
       <name>left</name>
-      <path>Aircraft/727-230/Sounds/whine.wav</path>
+      <path>Sounds/whine.wav</path>
       <mode>looped</mode>
       <property>engines/engine[0]/rpm</property>
       <pitch>
@@ -68,7 +68,7 @@
 
     <engine>
       <name>leftwhine2</name>
-      <path>Aircraft/727-230/Sounds/whine2.wav</path>
+      <path>Sounds/whine2.wav</path>
       <mode>looped</mode>
       <property>engines/engine[0]/rpm</property>
       <condition>
@@ -135,7 +135,7 @@
 
     <engine>
       <name>right</name>
-      <path>Aircraft/727-230/Sounds/whine.wav</path>
+      <path>Sounds/whine.wav</path>
       <mode>looped</mode>
       <property>engines/engine[1]/rpm</property>
       <volume>
@@ -166,7 +166,7 @@
 
     <engine>
       <name>rightwhine2</name>
-      <path>Aircraft/727-230/Sounds/whine2.wav</path>
+      <path>Sounds/whine2.wav</path>
       <mode>looped</mode>
       <property>engines/engine[0]/rpm</property>
       <condition>
@@ -231,7 +231,7 @@
     <rumble>
       <name>rumble</name>
       <mode>looped</mode>
-      <path>Aircraft/727-230/Sounds/rumblingOnGround.wav</path>
+      <path>Sounds/rumblingOnGround.wav</path>
       <condition>
 	<or>
 	  <property>/gear/gear[0]/wow</property>
@@ -256,7 +256,7 @@
     <gear1>
       <name>gear</name>
       <mode>in-transit</mode>
-      <path>Aircraft/727-230/Sounds/gear.wav</path>
+      <path>Sounds/gear.wav</path>
       <property>/gear/gear[0]/position-norm</property>
       <pitch>
 	<internal>dt_play</internal>
@@ -292,7 +292,7 @@
 
     <squeal0>
       <name>squeal</name>
-      <path>/Aircraft/727-230/Sounds/touchdown.wav</path>
+      <path>Sounds/touchdown.wav</path>
       <condition>
 	<or>
 	  <property>/gear/gear[0]/wow</property>
@@ -332,7 +332,7 @@
 
     <squeal1>
       <name>squeal</name>
-      <path>Aircraft/727-230/Sounds/touch.wav</path>
+      <path>Sounds/touch.wav</path>
       <condition>
 	<property>/gear/gear[0]/wow</property>
       </condition>
@@ -361,7 +361,7 @@
     <flap>
       <name>flaps</name>
       <mode>in-transit</mode>
-      <path>Aircraft/727-230/Sounds/Flaps.wav</path>
+      <path>Sounds/Flaps.wav</path>
       <property>/surface-positions/flap-pos-norm</property>
       <volume>
 	<factor>0.45</factor>
@@ -410,7 +410,7 @@
     <stall>
       <name>stall</name>
       <mode>looped</mode>
-      <path>/Aircraft/727-230/Sounds/stall.wav</path>
+      <path>Sounds/stall.wav</path>
       <condition>
 	<and>
 	  <less-than>
@@ -444,7 +444,7 @@
     <stall>
       <name>stall</name>
       <mode>looped</mode>
-      <path>/Aircraft/727-230/Sounds/stall.wav</path>
+      <path>Sounds/stall.wav</path>
       <condition>
 	<and>
 	  <less-than>
@@ -474,7 +474,7 @@
     <stall>
       <name>stall</name>
       <mode>looped</mode>
-      <path>/Aircraft/727-230/Sounds/stall.wav</path>
+      <path>Sounds/stall.wav</path>
       <condition>
 	<and>
 	  <less-than>
@@ -504,7 +504,7 @@
     <switch>
       <name>click on</name>
       <mode>once</mode>
-      <path>Aircraft/727-230/Sounds/click.wav</path>
+      <path>Sounds/click.wav</path>
       <condition>
 	<property>/sim/sound/switch</property>
       </condition>
@@ -523,7 +523,7 @@
     <switch>
       <name>click off</name>
       <mode>once</mode>
-      <path>Aircraft/727-230/Sounds/click.wav</path>
+      <path>Sounds/click.wav</path>
       <condition>
 	<not>
 	  <property>/sim/sound/switch</property>
@@ -544,7 +544,7 @@
     <speedbrake>
       <name>speedbrake</name>
       <mode>in-transit</mode>
-      <path>Aircraft/727-230/Sounds/whine.wav</path>
+      <path>Sounds/whine.wav</path>
       <volume>
 	<factor>0.45</factor>
       </volume>
@@ -560,7 +560,7 @@
     <engines>
       <name>left reverse-thrust</name>
       <mode>looped</mode>
-      <path>Aircraft/727-230/Sounds/reverser.wav</path>
+      <path>Sounds/reverser.wav</path>
       <condition>
 	<property>engines/engine[0]/running</property>
       </condition>
@@ -582,7 +582,7 @@
     <engines>
       <name>right reverse-thrust</name>
       <mode>looped</mode>
-      <path>Aircraft/727-230/Sounds/reverser.wav</path>
+      <path>Sounds/reverser.wav</path>
       <condition>
 	<property>engines/engine[1]/running</property>
       </condition>
@@ -623,7 +623,7 @@
       <reference-dist>1.0</reference-dist>
       <max-dist>2.0</max-dist>
       <mode>once</mode>
-      <path>Aircraft/727-230/Sounds/altitude-10.wav</path>
+      <path>Sounds/altitude-10.wav</path>
       <condition>
 	<less-than-equals>
 	  <property>position/altitude-agl-ft</property>
@@ -645,7 +645,7 @@
       <reference-dist>1.0</reference-dist>
       <max-dist>2.0</max-dist>
       <mode>once</mode>
-      <path>Aircraft/727-230/Sounds/altitude-20.wav</path>
+      <path>Sounds/altitude-20.wav</path>
       <condition>
 	<less-than-equals>
 	  <property>position/altitude-agl-ft</property>
@@ -667,7 +667,7 @@
       <reference-dist>1.0</reference-dist>
       <max-dist>2.0</max-dist>
       <mode>once</mode>
-      <path>Aircraft/727-230/Sounds/altitude-30.wav</path>
+      <path>Sounds/altitude-30.wav</path>
       <condition>
 	<less-than-equals>
 	  <property>position/altitude-agl-ft</property>
@@ -689,7 +689,7 @@
       <reference-dist>1.0</reference-dist>
       <max-dist>2.0</max-dist>
       <mode>once</mode>
-      <path>Aircraft/727-230/Sounds/altitude-40.wav</path>
+      <path>Sounds/altitude-40.wav</path>
       <condition>
 	<less-than-equals>
 	  <property>position/altitude-agl-ft</property>
@@ -711,7 +711,7 @@
       <reference-dist>1.0</reference-dist>
       <max-dist>2.0</max-dist>
       <mode>once</mode>
-      <path>Aircraft/727-230/Sounds/altitude-50.wav</path>
+      <path>Sounds/altitude-50.wav</path>
       <condition>
 	<less-than-equals>
 	  <property>position/altitude-agl-ft</property>
@@ -733,7 +733,7 @@
       <reference-dist>1.0</reference-dist>
       <max-dist>2.0</max-dist>
       <mode>once</mode>
-      <path>Aircraft/727-230/Sounds/altitude-100.wav</path>
+      <path>Sounds/altitude-100.wav</path>
       <condition>
 	<less-than-equals>
 	  <property>position/altitude-agl-ft</property>
@@ -755,7 +755,7 @@
       <reference-dist>1.0</reference-dist>
       <max-dist>2.0</max-dist>
       <mode>once</mode>
-      <path>Aircraft/727-230/Sounds/altitude-200.wav</path>
+      <path>Sounds/altitude-200.wav</path>
       <condition>
 	<less-than-equals>
           <property>position/altitude-agl-ft</property>
@@ -777,7 +777,7 @@
       <reference-dist>1.0</reference-dist>
       <max-dist>2.0</max-dist>
       <mode>once</mode>
-      <path>Aircraft/727-230/Sounds/altitude-300.wav</path>
+      <path>Sounds/altitude-300.wav</path>
       <condition>
 	<less-than-equals>
 	  <property>position/altitude-agl-ft</property>
@@ -799,7 +799,7 @@
       <reference-dist>1.0</reference-dist>
       <max-dist>2.0</max-dist>
       <mode>once</mode>
-      <path>Aircraft/727-230/Sounds/altitude-400.wav</path>
+      <path>Sounds/altitude-400.wav</path>
       <condition>
 	<less-than-equals>
 	  <property>position/altitude-agl-ft</property>
@@ -821,7 +821,7 @@
       <reference-dist>1.0</reference-dist>
       <max-dist>2.0</max-dist>
       <mode>once</mode>
-      <path>Aircraft/727-230/Sounds/altitude-500.wav</path>
+      <path>Sounds/altitude-500.wav</path>
       <condition>
 	<less-than-equals>
 	  <property>position/altitude-agl-ft</property>
@@ -843,7 +843,7 @@
       <reference-dist>1.0</reference-dist>
       <max-dist>2.0</max-dist>
       <mode>once</mode>
-      <path>Aircraft/727-230/Sounds/altitude-1000.wav</path>
+      <path>Sounds/altitude-1000.wav</path>
       <condition>
 	<less-than-equals>
 	  <property>position/altitude-agl-ft</property>
@@ -864,7 +864,7 @@
 
     <seatbelt>
       <name>Seatbelt</name>
-      <path>Aircraft/727-230/Sounds/Cabin/seatbelt.wav</path>
+      <path>Sounds/Cabin/seatbelt.wav</path>
       <mode>once</mode>
       <condition>
 	<property>controls/switches/seatbelt-sign</property>
@@ -883,7 +883,7 @@
 
     <music>
       <name>Music</name>
-      <path>Aircraft/727-230/Sounds/Cabin/music.wav</path>
+      <path>Sounds/Cabin/music.wav</path>
       <mode>looped</mode>
       <condition>
 	<property>controls/switches/music</property>
@@ -902,7 +902,7 @@
 
     <music2>
       <name>Music2</name>
-      <path>Aircraft/727-230/Sounds/Cabin/music2.wav</path>
+      <path>Sounds/Cabin/music2.wav</path>
       <mode>looped</mode>
       <condition>
 	<property>controls/switches/music2</property>
@@ -921,7 +921,7 @@
 
     <pretakeoff>
       <name>pretakeoff</name>
-      <path>Aircraft/727-230/Sounds/Cabin/pretakeoff.wav</path>
+      <path>Sounds/Cabin/pretakeoff.wav</path>
       <mode>once</mode>
       <condition>
 	<property>controls/switches/pretakeoff</property>
@@ -940,7 +940,7 @@
 
     <climbing>
       <name>climbing</name>
-      <path>Aircraft/727-230/Sounds/Cabin/climbing.wav</path>
+      <path>Sounds/Cabin/climbing.wav</path>
       <mode>once</mode>
       <condition>
 	<property>controls/switches/climbing</property>
@@ -959,7 +959,7 @@
 
     <descending>
       <name>descending</name>
-      <path>Aircraft/727-230/Sounds/Cabin/descending.wav</path>
+      <path>Sounds/Cabin/descending.wav</path>
       <mode>once</mode>
       <condition>
 	<property>controls/switches/descending</property>
@@ -978,7 +978,7 @@
 
     <arrival>
       <name>arrival</name>
-      <path>Aircraft/727-230/Sounds/Cabin/arrival.wav</path>
+      <path>Sounds/Cabin/arrival.wav</path>
       <mode>once</mode>
       <condition>
 	<property>controls/switches/arrival</property>
@@ -997,7 +997,7 @@
 
     <emergency>
       <name>emergency</name>
-      <path>Aircraft/727-230/Sounds/Cabin/emergency.wav</path>
+      <path>Sounds/Cabin/emergency.wav</path>
       <mode>once</mode>
       <condition>
 	<property>controls/switches/emergency</property>
@@ -1016,7 +1016,7 @@
 
     <safety>
       <name>safety</name>
-      <path>Aircraft/727-230/Sounds/Cabin/safety.wav</path>
+      <path>Sounds/Cabin/safety.wav</path>
       <mode>once</mode>
       <condition>
 	<property>controls/switches/safety</property>

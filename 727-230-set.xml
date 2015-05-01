@@ -14,7 +14,7 @@
     <aero>727-230</aero>
 
     <startup>
-      <splash-texture>Aircraft/727-230/splash-tribute.png</splash-texture>
+      <splash-texture>splash-tribute.png</splash-texture>
     </startup>
 
     <!-- Required for parkpos=AVAILABLE option -->
@@ -26,7 +26,7 @@
     </dimensions>
 
     <sound>
-      <path>Aircraft/727-230/Sounds/Sounds.xml</path>
+      <path>Sounds/Sounds.xml</path>
       <switch type="bool">0</switch>
       <stall-horn type="bool">0</stall-horn>
     </sound>
@@ -67,7 +67,7 @@
     </systems>
 
     <model>
-      <path>Aircraft/727-230/Models/727-230.xml</path>
+      <path>Models/727-230.xml</path>
       <livery>
 	<name type="string">DLH - Lufthansa Airl.</name>
 	<texture>Liveries/727-230_Lufthansa.png</texture>
@@ -163,7 +163,7 @@
 
   <!-- IAHMCOL introduced new instrumentation file to install ADF, Clock, and DME. Old config was transferred there -->
   <instrumentation>
-    <path>Aircraft/727-230/Systems/727-230-instrumentation.xml</path>
+    <path>Systems/727-230-instrumentation.xml</path>
   </instrumentation>
 
   <gear>
@@ -262,16 +262,16 @@
       <file>Nasal/waypoint-smoothing.nas</file>
     </B727-230>
     <DME>
-      <file>Aircraft/727-230/Nasal/mk-ki266.nas</file>
+      <file>Nasal/mk-ki266.nas</file>
       <script><![CDATA[
       ki266.new(0);
       ]]></script>
     </DME>
     <tyresmoke>
-      <file>Aircraft/727-230/Nasal/tyresmoke.nas</file>
+      <file>Nasal/tyresmoke.nas</file>
     </tyresmoke>
     <livery>
-      <file>Aircraft/727-230/Nasal/livery.nas</file>
+      <file>Nasal/livery.nas</file>
     </livery>
   </nasal>
 

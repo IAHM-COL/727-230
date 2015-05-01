@@ -7,7 +7,7 @@
   <!-- Livery System -->
   <nasal>
     <load>
-      var livery_update = aircraft.livery_update.new("Aircraft/727-230/Models/Liveries", 10);
+      var livery_update = aircraft.livery_update.new("Models/Liveries", 10);
     </load>
 
     <unload>
@@ -191,7 +191,7 @@
 
   <model>
     <name>shadowOSG</name>
-    <path>Aircraft/727-230/Models/shadow.xml</path>
+    <path>Models/shadow.xml</path>
   </model>
 
   <animation>
@@ -217,7 +217,7 @@
 
   <!-- hsi -->
   <model>
-    <path>Aircraft/727-230/Models/Instruments/hsi/hsi.xml</path>
+    <path>Models/Instruments/hsi/hsi.xml</path>
     <offsets>
       <x-m>-21.368</x-m>
       <y-m>-0.400</y-m>
@@ -225,7 +225,7 @@
     </offsets>
   </model>
   <model>
-    <path>Aircraft/727-230/Models/Instruments/hsi/hsi.xml</path>
+    <path>Models/Instruments/hsi/hsi.xml</path>
     <offsets>
       <x-m>-21.368</x-m>
       <y-m>0.534</y-m>
@@ -235,7 +235,7 @@
 
   <!-- rmi -->
   <model>
-    <path>Aircraft/727-230/Models/Instruments/rmi/rmi.xml</path>
+    <path>Models/Instruments/rmi/rmi.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>0.333</y-m>
@@ -243,7 +243,7 @@
     </offsets>
   </model>
   <model>
-    <path>Aircraft/727-230/Models/Instruments/rmi/rmi.xml</path>
+    <path>Models/Instruments/rmi/rmi.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>-0.534</y-m>
@@ -253,7 +253,7 @@
 
   <!-- dme -->
   <model>
-    <path>Aircraft/727-230/Models/Instruments/dme/dme.xml</path>
+    <path>Models/Instruments/dme/dme.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>-0.400</y-m>
@@ -263,7 +263,7 @@
 
   <!-- clock -->
   <model>
-    <path>Aircraft/727-230/Models/Instruments/clock.xml</path>
+    <path>Models/Instruments/clock.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>-0.660</y-m>
@@ -275,7 +275,7 @@
   <!--Original Instrumentation; may be relocated -->
   <!-- ai -->
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/ai/ai.xml</path>
+    <path>Models/Flightdeck/ai/ai.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>-0.534</y-m>
@@ -283,7 +283,7 @@
     </offsets>
   </model>
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/ai/ai.xml</path>
+    <path>Models/Flightdeck/ai/ai.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>0.534</y-m>
@@ -293,7 +293,7 @@
 
   <!-- asi -->
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/asi/asi.xml</path>
+    <path>Models/Flightdeck/asi/asi.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>-0.660</y-m>
@@ -301,7 +301,7 @@
     </offsets>
   </model>
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/asi/asi.xml</path>
+    <path>Models/Flightdeck/asi/asi.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>0.333</y-m>
@@ -311,7 +311,7 @@
 
   <!-- alt -->
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/alt/alt.xml</path>
+    <path>Models/Flightdeck/alt/alt.xml</path>
     <offsets>
       <x-m>-21.323 </x-m>
       <y-m>-0.280 </y-m>
@@ -319,7 +319,7 @@
     </offsets>
   </model>
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/alt/alt.xml</path>
+    <path>Models/Flightdeck/alt/alt.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>0.651</y-m>
@@ -329,7 +329,7 @@
 
   <!-- vsi -->
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/vsi/vsi.xml</path>
+    <path>Models/Flightdeck/vsi/vsi.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>-0.280</y-m>
@@ -337,7 +337,7 @@
     </offsets>
   </model>
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/vsi/vsi.xml</path>
+    <path>Models/Flightdeck/vsi/vsi.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>0.651</y-m>
@@ -347,7 +347,7 @@
 
   <!-- epr -->
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/epr/eprL.xml</path>
+    <path>Models/Flightdeck/epr/eprL.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> -0.075 </y-m>
@@ -356,7 +356,7 @@
   </model>
 
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/epr/eprM.xml</path>
+    <path>Models/Flightdeck/epr/eprM.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> 0.0 </y-m>
@@ -365,7 +365,7 @@
   </model>
 
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/epr/eprR.xml</path>
+    <path>Models/Flightdeck/epr/eprR.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> 0.082 </y-m>
@@ -375,7 +375,7 @@
 
   <!-- rpm -->
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/rpm/rpmN1L.xml</path>
+    <path>Models/Flightdeck/rpm/rpmN1L.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> -0.078 </y-m>
@@ -384,7 +384,7 @@
   </model>
 
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/rpm/rpmN1M.xml</path>
+    <path>Models/Flightdeck/rpm/rpmN1M.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> 0.0 </y-m>
@@ -393,7 +393,7 @@
   </model>
 
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/rpm/rpmN1M.xml</path>
+    <path>Models/Flightdeck/rpm/rpmN1M.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> 0.078 </y-m>
@@ -403,7 +403,7 @@
 
 
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/rpm/rpmN2L.xml</path>
+    <path>Models/Flightdeck/rpm/rpmN2L.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> -0.078 </y-m>
@@ -412,7 +412,7 @@
   </model>
 
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/rpm/rpmN2M.xml</path>
+    <path>Models/Flightdeck/rpm/rpmN2M.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> 0.0 </y-m>
@@ -421,7 +421,7 @@
   </model>
 
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/rpm/rpmN2M.xml</path>
+    <path>Models/Flightdeck/rpm/rpmN2M.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> 0.078 </y-m>
@@ -431,7 +431,7 @@
 
   <!-- oilpressure -->
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/oilpressure/oilpressureL.xml</path>
+    <path>Models/Flightdeck/oilpressure/oilpressureL.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> -0.078 </y-m>
@@ -440,7 +440,7 @@
   </model>
 
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/oilpressure/oilpressureM.xml</path>
+    <path>Models/Flightdeck/oilpressure/oilpressureM.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> 0.0 </y-m>
@@ -449,7 +449,7 @@
   </model>
 
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/oilpressure/oilpressureR.xml</path>
+    <path>Models/Flightdeck/oilpressure/oilpressureR.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> 0.078 </y-m>
@@ -459,7 +459,7 @@
 
   <!-- oiltemp -->
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/oiltemp/oiltempL.xml</path>
+    <path>Models/Flightdeck/oiltemp/oiltempL.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> -0.078 </y-m>
@@ -468,7 +468,7 @@
   </model>
 
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/oiltemp/oiltempM.xml</path>
+    <path>Models/Flightdeck/oiltemp/oiltempM.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> 0.0 </y-m>
@@ -477,7 +477,7 @@
   </model>
 
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/oiltemp/oiltempR.xml</path>
+    <path>Models/Flightdeck/oiltemp/oiltempR.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> 0.078 </y-m>
@@ -487,7 +487,7 @@
 
   <!-- flaps -->
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/flaps/flaps.xml</path>
+    <path>Models/Flightdeck/flaps/flaps.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> 0.143 </y-m>
@@ -496,7 +496,7 @@
   </model>
 
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/flaps/flaps.xml</path>
+    <path>Models/Flightdeck/flaps/flaps.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> 0.143 </y-m>
@@ -507,7 +507,7 @@
 
   <!-- alt2 
        <model>
-       <path>Aircraft/727-230/Models/Flightdeck/alt2/alt.xml</path>
+       <path>Models/Flightdeck/alt2/alt.xml</path>
        <offsets>
        <x-m> -21.323 </x-m>
        <y-m> -0.165 </y-m>
@@ -518,7 +518,7 @@
 
   <!-- STBYai -->
   <model>
-    <path>Aircraft/727-230/Models/Flightdeck/STBYai/STBYai.xml</path>
+    <path>Models/Flightdeck/STBYai/STBYai.xml</path>
     <offsets>
       <x-m> -21.323 </x-m>
       <y-m> -0.165 </y-m>
@@ -529,7 +529,7 @@
   <!-- RADIO stack -->
   <!-- Obtained from Mark Kraus developed dc6 -->
   <model>
-    <path>Aircraft/727-230/Models/Instruments/comm/comm1.xml</path>
+    <path>Models/Instruments/comm/comm1.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>-0.140</y-m>
@@ -538,7 +538,7 @@
     </offsets>
   </model>
   <model>
-    <path>Aircraft/727-230/Models/Instruments/nav-radio/nav1.xml</path>
+    <path>Models/Instruments/nav-radio/nav1.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>0.010</y-m>
@@ -547,7 +547,7 @@
     </offsets>
   </model>
   <model>
-    <path>Aircraft/727-230/Models/Instruments/comm/comm2.xml</path>
+    <path>Models/Instruments/comm/comm2.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>-0.120</y-m>
@@ -556,7 +556,7 @@
     </offsets>
   </model>
   <model>
-    <path>Aircraft/727-230/Models/Instruments/nav-radio/nav2.xml</path>
+    <path>Models/Instruments/nav-radio/nav2.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>0.040</y-m>
@@ -565,7 +565,7 @@
     </offsets>
   </model>
   <model>
-    <path>Aircraft/727-230/Models/Instruments/adf-radio/adf1.xml</path>
+    <path>Models/Instruments/adf-radio/adf1.xml</path>
     <offsets>
       <x-m>-21.323</x-m>
       <y-m>0.160</y-m>
